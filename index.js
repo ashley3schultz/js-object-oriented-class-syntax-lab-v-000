@@ -1,11 +1,11 @@
 class BoardMembers {
-  constructor(name, homeState, training){
+  constructor(name, homeState, training) {
   this.name = name
   this.homeState = homeState
   this.training = training
   }
 
-  veto(){
+  veto() {
     return 'No, I must disagree'
   }
 
@@ -26,7 +26,7 @@ class BoardMembers {
 
 }
 
-class Ceo extend BoardMembers{
+class Ceo extends BoardMembers {
 
 
   hireEmployee() {
